@@ -24,3 +24,10 @@ h1{
 .box3{
     background-color: yellow;
 }
+
+/* p color */
+p{
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+}
