@@ -12,3 +12,15 @@ h1{
     color: blueviolet;
     cursor: pointer;
 }
+
+.box{
+    padding: 20px;
+    background-color: yellowgreen;
+    width: 110px;
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: yellow;
+}
