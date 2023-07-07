@@ -31,3 +31,42 @@
 .logo{
     width:auto;
 }
+/* main section for banner */
+.banner-text{
+    color:white;
+}
+.banner-photo{
+    width: 400px;
+    
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png),
+    linear-gradient(45deg,rgb(193, 23, 23),rgb(255, 7, 7));
+   
+}
+.title{
+    font-size: 55px;
+    font-weight: bold
+}
+.description{
+    font-size:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+}
+.btn:hover{
+    background-color: aquamarine;
+
+}
