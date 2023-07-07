@@ -108,3 +108,33 @@
     
 }
 
+/* our services */
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(16, 16, 16);
+}
+
+.our-service{
+    text-align: center;
+    margin: 15px;
+    font-size: 3rem;
+}
+
+.digital{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray ;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    
+}
+.box-btn{
+    background-color: gray;
+    color: yellowgreen;
+}
+
