@@ -48,6 +48,10 @@
     
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png),
     linear-gradient(45deg,rgb(193, 23, 23),rgb(255, 7, 7));
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
 .title{
@@ -70,3 +74,37 @@
     background-color: aquamarine;
 
 }
+
+/* about section */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    padding: 10px;
+
+
+}
+
+.about-title{
+    text-align: center;
+    padding-top:20px ;
+}
+
+.about-photo{
+    width: 400px;
+}
+.about-text> h1{
+    margin: 10px;
+    
+}
+.about-text> p{
+    margin: 10px;
+    
+}
+.about-text> .btn{
+    margin: 10px;
+    
+}
+
